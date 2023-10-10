@@ -37,7 +37,7 @@ export default function Header() {
           {navbarLinks.map((link, i) => (
             <li
               key={i}
-              className="hover:bg-gradient-to-l hover:text-transparent hover:bg-clip-text transition-all duration-300 from-[var(--primary-gradient-color)]  to-[var(--secondary-gradient-color)]"
+              className="text-sm sm:text-base hover:bg-gradient-to-l hover:text-transparent hover:bg-clip-text transition-all duration-300 from-[var(--primary-gradient-color)]  to-[var(--secondary-gradient-color)]"
             >
               <Link href={link.path}>{link.name}</Link>
             </li>

@@ -16,8 +16,8 @@ export default function LaptopSection() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <div>
-            <h2 className="mb-8 text-center ">Desktop Dev</h2>
-            <p className="mb-8 max-w-[50ch]">
+            <h2 className="mb-4 md:mb-6 text-center ">Desktop Dev</h2>
+            <p className="mb-8 max-w-[50ch] px-4 sm:px-0">
               We develop all kinds of custom desktop designs: websites, landing
               pages, web applications with dashboards, whatever. There’s no
               limit to what can be done.
@@ -31,7 +31,7 @@ export default function LaptopSection() {
               discover dukamarket
             </Button>
           </div>
-          <div className="relative pointer-events-none">
+          <div className="relative pointer-events-none px-8 sm:px-0">
             <Lottie
               style={{
                 maxWidth: "800px",

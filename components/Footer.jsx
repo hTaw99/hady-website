@@ -21,7 +21,7 @@ const Footer = ({ smoothScroll }) => {
   const opacity = useTransform(smoothScroll, [0, 0.5], [0, 1]);
   return (
     <>
-      <div className="h-[50vh] invisible"></div>
+      <div className="h-[65svh] invisible"></div>
       {/* <motion.footer
         style={{ opacity }}
         className="text-center bg-[radial-gradient(circle_closest-corner_at_50%_100%,_#230202_0%,_transparent_100%)]  py-10 pt-80 fixed top-auto bottom-0  right-0 left-0  text-white"
@@ -29,18 +29,18 @@ const Footer = ({ smoothScroll }) => {
         <motion.footer
         ref={bgRef}
       style={{ opacity }}
-      className="text-center before:inset-0 before:absolute before:-z-50  before:bg-[radial-gradient(circle_farthest-corner_at_var(--x,500px)_var(--y,500px),_#1a0740_0%,_transparent_100%)]  py-10 pt-[700px] fixed   inset-0  text-white"
+      className="text-center before:inset-0 before:absolute before:-z-50 py-4  before:bg-[radial-gradient(circle_farthest-corner_at_var(--x,500px)_var(--y,500px),_#1a0740_0%,_transparent_100%)]   fixed   inset-0  text-white"
     >
         {/*  */}
-        <div className="w-full h-full flex flex-col justify-between">
+        <div className="w-full h-full flex flex-col justify-end">
           <div className="flex flex-col justify-center items-center">
-            <div className="p-6 bg-gradient-to-t from-red-700  to-red-500 mb-6 mx-auto w-24 h-24 rounded-2xl flex justify-center  items-center">
+            <div className="p-4 bg-gradient-to-t from-red-700  to-red-500 mb-6 mx-auto h-20 w-20 md:w-24 md:h-24 rounded-2xl flex justify-center  items-center">
               <Logo className="w-full h-full" />
             </div>
-            <h2 className="mb-4">
+            <h2 className="mb-4 text-5xl md:text-7xl">
               Say Hello! <br />
             </h2>
-            <p className="text-xl md:text-2xl  mb-6 text-white/50 max-w-[40ch]">
+            <p className="text-base md:text-2xl  mb-6 text-white/50 max-w-[40ch]">
               Have an opportunity, wanna collaborate on something cool or
               just say hello!
             </p>
@@ -55,7 +55,7 @@ const Footer = ({ smoothScroll }) => {
             </button>
           </div>
           <div className="">
-            <div className="mt-12 mb-6 pb-6 border-b border-white/20 w-4/6 mx-auto flex justify-between items-center">
+            <div className="mt-12 mb-2 pb-6 border-b border-white/20 w-4/6 mx-auto flex justify-between items-center">
               <SocialMediaLinks />
               <ui className="md:flex hidden  gap-4 text-white text-lg list-none">
                 <li>
@@ -69,7 +69,7 @@ const Footer = ({ smoothScroll }) => {
                 </li>
               </ui>
             </div>
-            <span className="text-sm md:text-base text-white/40">
+            <span className="text-xs md:text-base text-white/40">
               © 2023 Hady Tawfik. Made by love, Next.js & figma
             </span>
           </div>

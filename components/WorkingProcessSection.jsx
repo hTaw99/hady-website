@@ -106,31 +106,30 @@ export default function WorkingProcessSection() {
         <div className="flex flex-col w-full h-full justify-center items-center">
           <motion.div
             style={{ scale: scaleCircles, y, rotateZ: rotateCircles }}
-            className="relative flex h-[180px] justify-center items-center"
+            className="[&>*]:w-24 [&>*]:h-24 [&>*]:rounded-full [&>*]:border-4 relative flex h-[180px] justify-center items-center"
           >
             <motion.div
               style={{ transform: transform, opacity: opacityCircles }}
-              className="w-24 h-24 border-4  rounded-full"
             />
             <motion.div
               style={{ transform: transform2, opacity: opacityCircles }}
-              className="w-24 h-24 border-4 rounded-full"
+              className=""
             />
             <motion.div
               style={{ transform: transform3, opacity: opacityCircles }}
-              className="w-24 h-24 absolute top-0 left-6 border-4 rounded-full"
+              className="absolute top-0 left-6 "
             />
             <motion.div
               style={{ transform: transform4, opacity: opacityCircles }}
-              className="w-24 h-24 absolute top-0 right-6 border-4 rounded-full"
+              className="absolute top-0 right-6 "
             />
             <motion.div
               style={{ transform: transform5, opacity: opacityCircles }}
-              className="w-24 h-24 absolute bottom-0 left-6 border-4 rounded-full"
+              className="absolute bottom-0 left-6 "
             />
             <motion.div
               style={{ transform: transform6, opacity: opacityCircles }}
-              className="w-24 h-24 absolute bottom-0 right-6 border-4 rounded-full"
+              className="absolute bottom-0 right-6 "
             />
           </motion.div>
           <motion.div className="w-full  px-6" style={{ y }}>
@@ -148,10 +147,12 @@ export default function WorkingProcessSection() {
                   index={i}
                   arrayLength={arr.length}
                 >
-                  <h4 className="font-bold capitalize text-3xl tracking-tight mb-4">
+                  <h4 className="font-bold capitalize text-2xl tracking-tight mb-4">
                     {card.title}
                   </h4>
-                  <p className="text-black font-normal max-w-[50ch] mx-auto">{card.description}</p>
+                  <p className="text-black font-normal max-w-[50ch] mx-auto">
+                    {card.description}
+                  </p>
                 </Card>
               ))}
             </div>

@@ -40,29 +40,29 @@ export default function GetInTouch() {
     baseX.set(baseX.get() + moveBy);
   });
   return (
-    <div className="h-[15vh] md:h-[25vh] bg-white p-6 md:p-10 rounded-b-[48px]">
-      <div className="w-full whitespace-nowrap flex-nowrap flex overflow-hidden items-center bg-black rounded-3xl h-full">
+    <div className=" bg-white p-6 md:p-10 rounded-b-[48px]">
+      <div className="w-full whitespace-nowrap flex-nowrap flex overflow-hidden items-center py-10 bg-black rounded-3xl h-full">
         <motion.div
           style={{ x }}
-          className=" tracking-tighter font-bold flex whitespace-nowrap flex-nowrap justify-center items-center gap-10"
+          className=" flex whitespace-nowrap flex-nowrap justify-center items-center gap-10"
         >
-          <h2 className="">Get in Touch </h2>
+          <h3 className="">Get in Touch </h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
-          <h2>Get in Touch</h2>
+          <h3>Get in Touch</h3>
           <span>.</span>
         </motion.div>
       </div>

@@ -42,7 +42,7 @@ export default function AgeSection() {
         <div>
           <motion.h1
             style={{ scale: scaleWord, filter, opacity: opacityWord }}
-            className=" text-8xl font-bold tracking-tight"
+            className=" text-6xl md:text-8xl font-bold tracking-tight"
           >
             {string.split(" ").map((word, i, arr) => (
               <>
@@ -62,7 +62,7 @@ export default function AgeSection() {
             className="flex justify-center items-center mt-10"
             style={{ y: translateY, opacity: opacityLottie }}
           >
-            <h1 className="font-extrabold text-[16rem] text-transparent bg-clip-text bg-gradient-to-r from-[#5b72e1] via-[#9647cd]  to-[#e240a6]">
+            <h1 className="font-extrabold text-9xl md:text-[16rem] text-transparent bg-clip-text bg-gradient-to-r from-[#5b72e1] via-[#9647cd]  to-[#e240a6]">
               24
             </h1>
             {/* <Lottie

@@ -46,7 +46,7 @@ export default function Hero() {
         <h1 className="mb-4 md:mb-6 bg-clip-text text-transparent bg-[radial-gradient(circle_at_center,#ffffff,rgba(150,150,150))]">
           I&apos;m Hady <br /> Tawfik
         </h1>
-        <p className="mb-8 max-w-[50ch]">
+        <p className="mb-8 max-w-[50ch] px-4 sm:px-0">
           I&apos;a self taught Product Designer based out of Egypt.
           Sometimes I dabble with code, video games or the piano.
         </p>
