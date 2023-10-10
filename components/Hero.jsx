@@ -44,11 +44,11 @@ export default function Hero() {
           <Logo className="w-full h-full" />
         </div>
         <h1 className="mb-4 md:mb-6 bg-clip-text text-transparent bg-[radial-gradient(circle_at_center,#ffffff,rgba(150,150,150))]">
-          I'm Hady <br /> Tawfik
+          I&apos;m Hady <br /> Tawfik
         </h1>
         <p className="mb-8 max-w-[50ch]">
-          I'm a self taught Product Designer based out of Egypt. Sometimes I
-          dabble with code, video games or the piano.
+          I&apos;a self taught Product Designer based out of Egypt.
+          Sometimes I dabble with code, video games or the piano.
         </p>
 
         {/* <button className="bg-gradient-to-r from-red-700  to-red-500 py-2 px-6 rounded-full capitalize text-lg font-semibold">

@@ -48,7 +48,7 @@ export default function Form({ isHome }) {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="w-[500px]">
+    <form onSubmit={handleSubmit(onSubmit)} className="w-[90%] sm:w-[500px]">
       <div className=" flex flex-col gap-4 mb-4">
         {inputs.map((input) => (
           <CustomInput
