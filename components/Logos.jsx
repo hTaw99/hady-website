@@ -73,9 +73,9 @@ const Logos = () => {
         <div className=" absolute inset-y-0 left-16 bg-[radial-gradient(75%_75%_at_50%_50%,#6600ff_0%,hsl(194,100%,51%)_100%)] w-[500px]  rounded-full blur-[100px]" />
         <div className=" absolute inset-y-0 right-16 bg-[radial-gradient(75%_75%_at_50%_50%,#6600ff_0%,hsl(283,100%,51%)_100%)] w-[500px] rounded-full blur-[100px]" />
       </div>
-      <h2 className="bg-clip-text text-transparent bg-[radial-gradient(circle_at_center,#ffffff,rgba(150,150,150))] mb-4 md:mb-8 max-w-[10ch]">
-        Parterners we  worked with
-      </h2>
+      <h4 className="bg-clip-text text-transparent gradient-gray mb-4 md:mb-8 max-w-[10ch]">
+        Parterners
+      </h4>
       <p className="mb-16 max-w-[50ch] px-4 sm:px-0">
         Over the years, I’ve been fortunate to work with some incredible brands
         – both as clients and through my personal projects.

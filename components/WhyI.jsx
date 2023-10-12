@@ -57,13 +57,13 @@ export default function WhyI() {
   return (
     <div className="min-h-screen  bg-white text-left text-black  flex justify-center items-center">
       <div className="container py-16 md:py-0">
-        <motion.h3
+        <motion.h4
           className={`${
             isInView ? "blur-0" : " blur-sm"
           } transition-all duration-500 text-center md:text-left mb-12 md:mb-24`}
         >
           Why me?
-        </motion.h3>
+        </motion.h4>
         <div ref={scope} className=" text-center md:text-left grid md:grid-cols-2 lg:grid-cols-3 gap-20 ">
           {features.map((el) => (
             <div key={el.title} className="">

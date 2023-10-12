@@ -41,29 +41,20 @@ export default function GetInTouch() {
   });
   return (
     <div className=" bg-white p-6 md:p-10 rounded-b-[48px]">
-      <div className="w-full whitespace-nowrap flex-nowrap flex overflow-hidden items-center py-10 bg-black rounded-3xl h-full">
+      <div className="w-full whitespace-nowrap flex-nowrap flex overflow-hidden items-center py-16 bg-black rounded-3xl h-full">
         <motion.div
           style={{ x }}
           className=" flex whitespace-nowrap flex-nowrap justify-center items-center gap-10"
         >
           <h3 className="">Get in Touch </h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
           <h3>Get in Touch</h3>
-          <span>.</span>
         </motion.div>
       </div>
     </div>

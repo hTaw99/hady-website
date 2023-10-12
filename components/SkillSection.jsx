@@ -26,7 +26,7 @@ export default function SkillSection() {
       {/* <div className="min-h-screen py-24 relative before:absolute before:animate-blob before:top-0 before:w-1/3 before:h-2/3 before:bg-blue-500/10 before:rounded-full before:blur-[250px]"> */}
       <div className="relative container   flex gap-10 items-start">
         <div className="w-full  py-[50vh]">
-          <ul className="font-extrabold flex flex-col gap-32">
+          <ul className="font-extrabold flex flex-col gap-40">
             {skillTitles.map((skill) => (
               <SkillTitle id={skill.id} key={skill.title}>
                 {skill.title}

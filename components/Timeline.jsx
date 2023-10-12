@@ -58,9 +58,9 @@ export default function Timeline() {
   return (
     <div ref={targetRef} className="h-[400vh] pt-36 static bg-white text-black">
       <div className="sticky container top-0 h-screen flex flex-col gap-24 justify-center items-center">
-        <motion.h3 style={{ y: yForText }} className="leading-snug">
-          The Ongoing Story of <br /> Outcrowd
-        </motion.h3>
+        <motion.h4 style={{ y: yForText }} className="w-[15ch] leading-snug">
+          The Ongoing Story of Outcrowd
+        </motion.h4>
         <div className="flex justify-between w-full mx-auto h-full">
           <div className="relative text-left">
             {year.map((el, i, arr) => (

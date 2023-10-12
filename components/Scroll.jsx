@@ -7,9 +7,7 @@ import macAnimation from "../icons/macAnimation.json";
 export default function Scroll() {
   const ref = useRef(null);
   const lottieRef = useRef(null);
-  console.log(lottieRef);
 
-  console.log(ref);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end end"],
@@ -23,6 +21,7 @@ export default function Scroll() {
   const opacityForGradient = useTransform(scrollYProgress, [0.3, 1], [0, 0.5], {
     ease: easeOut,
   });
+
   return (
     <div ref={ref} className="h-[200vh]  relative">
       <div className=" sticky z-50 overflow-hidden container inset-0 h-screen flex justify-center items-center">
@@ -39,7 +38,10 @@ export default function Scroll() {
             lottieRef={lottieRef}
             className="max-w-[550px] box-border md:w"
             onDOMLoaded={() =>
-              (lottieRef.current.animationContainerRef.current = ref.current)
+              ref
+                ? (lottieRef.current.animationContainerRef.current =
+                    ref.current)
+                : null
             }
             interactivity={{
               mode: "scroll",

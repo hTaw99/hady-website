@@ -28,14 +28,14 @@ export default function TechnologyStack() {
     <div className="flex container justify-center items-center min-h-[100vh]">
       <div className="grid md:grid-cols-2  w-[900px] gap-10 ">
         <div className="relative flex flex-col  p-10 before:inset-x-0 before:-top-0 before:bg-[radial-gradient(closest-side,rgba(255,255,255,0.3),transparent)] before:absolute before:h-[1.5px] rounded-xl bg-[rgba(255,255,255,0.02)] border border-white/10 min-h-[500px] ">
-          <h3 className="capitalize text-left  text-transparent bg-clip-text bg-gradient-to-r mb-4 from-[#5b72e1] via-[#9647cd]  to-[#e240a6] ">
+          <h4 className="capitalize text-left  text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary-gradient-color)] to-[var(--secondary-gradient-color)] via-[var(--tertiary-gradient-color)] mb-4  ">
             techonolgy stack
-          </h3>
+          </h4>
           <p className="text-white/50 text-left text-lg">
             Building and transforming digital products with a range of
             technologies.
           </p>
-          <Button className="btn-tertiary  mt-auto">read more</Button>
+          <Button className="btn-tertiary   mt-auto">read more</Button>
         </div>
         <div className="p-10 flex flex-col gap-16 justify-between relative rounded-xl bg-[rgba(255,255,255,0.02)] border border-white/10 min-h-[500px]">
           <div
@@ -55,12 +55,11 @@ export default function TechnologyStack() {
             ))}
           </div>
           <div className="mt-auto ">
-            <h4 className="font-bold text-3xl text-left mb-4">
+            <h4 className="font-bold bg-clip-text text-transparent gradient-gray text-left mb-4">
               Never stop learning
             </h4>
             <p className="text-left text-lg text-white/50 ">
-              have passion to learn more technology have passion to learn more
-              technology have passion to learn more technology
+              Have passion to learn more technology
             </p>
           </div>
         </div>

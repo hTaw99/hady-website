@@ -133,12 +133,12 @@ export default function WorkingProcessSection() {
             />
           </motion.div>
           <motion.div className="w-full  px-6" style={{ y }}>
-            <motion.h3
+            <motion.h4
               style={{ opacity: textOpacity }}
               className="font-extrabold  mb-10"
             >
               Working Process
-            </motion.h3>
+            </motion.h4>
             <div className="relative  text-center w-full flex flex-col justify-center items-center ">
               {cards.map((card, i, arr) => (
                 <Card
